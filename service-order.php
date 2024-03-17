@@ -60,11 +60,14 @@ class serord_main_class{
                         <label for="project_title" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Project Title</label>
                         <input type="text" id="project_title" name="project_title" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Write the project title here" required>
                     </div>
+                    <div class="relative z-0 w-full mb-5 group">
+
                     <div class="sm:col-span-2">
                         <label for="project_description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Project Description</label>
                         <textarea id="project_description" name="project_description" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Write description of the project here..."></textarea>
                     </div>
-                    <div>
+                    </div>
+                    <div class="relative z-0 w-full mb-5 group">
                     <label for="service_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select the service</label>
                         <select id="service_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
 
@@ -74,7 +77,7 @@ class serord_main_class{
                             <option>WordPress Speed Optimization</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="relative z-0 w-full mb-5 group">
                     <label for="package_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select the Package</label>
                         <select id="package_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
 
